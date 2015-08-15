@@ -161,6 +161,7 @@
 }
 
 .product_area{
+    border: 1px,1px,1px,1px;
     margin-top: 10px;
     width: 980px;
     height: 800px;
@@ -212,4 +213,33 @@
     font-size: 6px;
     color:#535353;
 }
-
+.rg_panel{
+    boder-top:1px;
+    padding-top: 1px;
+    background-color:burlywood;
+    color: cornflowerblue;
+    width: 941px;
+    height: 415px;
+    margin-top: 100px;
+    /*margin-left: 100px;*/
+}
+.rg_content{
+    font-size: 16px;
+    margin-top: 27px;
+    margin-left: 60px;
+    background-color:#F9FCFE;
+    width: 484px;
+    height: 343px;
+    float: left;
+}
+.rg_title{
+    font-size: 32px;
+    color:#101010;
+}
+.rg_fillcontent{
+    margin-top: 27px;
+    background-color: lightslategray;
+    width: 340px;
+    height: 343px;
+    float: left;
+}

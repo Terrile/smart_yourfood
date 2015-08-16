@@ -40,14 +40,16 @@
             <div class="col-md-3">
                 <div class="row"><h3>鱼香肉丝</h3></div>
                 <div class="row" style="margin-top: 20px">北疆饭店</div>
-                <div class="row" style="margin-top: 10px">778-888-8887</div>
-                <div class="row" style="margin-top: 10px">4600 Number 3 Road, Richmond</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-phone-alt"></span>778-888-8887</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-map-marker"></span>4600 Number 3 Road, Richmond</div>
             </div>
             <div class="col-md-2">
                 $10.00
             </div>
             <div class="col-md-2">
-                <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span><span style="font-size: 20px">2</span><span class="glyphicon glyphicon-minus" style="font-size: 20px"></span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span></button>
+                <span style="font-size: 20px; margin-left: 10px;margin-right: 10px">2</span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-minus" style="font-size: 20px"></span></button>
             </div>
             <div class="col-md-2">
                 $20.00
@@ -60,14 +62,16 @@
             <div class="col-md-3">
                 <div class="row"><h3>鱼香肉丝</h3></div>
                 <div class="row" style="margin-top: 20px">北疆饭店</div>
-                <div class="row" style="margin-top: 10px">778-888-8887</div>
-                <div class="row" style="margin-top: 10px">4600 Number 3 Road, Richmond</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-phone-alt"></span>778-888-8887</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-map-marker"></span>4600 Number 3 Road, Richmond</div>
             </div>
             <div class="col-md-2">
                 $10.00
             </div>
             <div class="col-md-2">
-                <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span><span style="font-size: 20px">2</span><span class="glyphicon glyphicon-minus" style="font-size: 20px"></span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span></button>
+                <span style="font-size: 20px; margin-left: 10px;margin-right: 10px">2</span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-minus" style="font-size: 20px"></span></button>
             </div>
             <div class="col-md-2">
                 $20.00
@@ -80,37 +84,72 @@
             <div class="col-md-3">
                 <div class="row"><h3>鱼香肉丝</h3></div>
                 <div class="row" style="margin-top: 20px">北疆饭店</div>
-                <div class="row" style="margin-top: 10px">778-888-8887</div>
-                <div class="row" style="margin-top: 10px">4600 Number 3 Road, Richmond</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-phone-alt"></span>778-888-8887</div>
+                <div class="row" style="margin-top: 10px"><span class="glyphicon glyphicon-map-marker"></span>4600 Number 3 Road, Richmond</div>
             </div>
             <div class="col-md-2">
                 $10.00
             </div>
             <div class="col-md-2">
-                <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span><span style="font-size: 20px">2</span><span class="glyphicon glyphicon-minus" style="font-size: 20px"></span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-plus" style="font-size: 20px"></span></button>
+                <span style="font-size: 20px; margin-left: 10px;margin-right: 10px">2</span>
+                <button class="btn btn-primary"> <span class="glyphicon glyphicon-minus" style="font-size: 20px"></span></button>
             </div>
             <div class="col-md-2">
                 $20.00
             </div>
         </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-md-1 col-md-offset-7">配送方式:</div>
-            <div class="col-md-3">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" value="" checked> 拆分配送
-                        </label>
-                        <label>
-                            <input type="checkbox" value=""> 统一配送
-                        </label>
+        <div class="col-md-5 col-md-offset-8">
+            <form class="form-horizontal">
+                <div class="form-group required">
+                    <label class="col-md-3 control-label">配送方式:</label>
+                    <label>
+                        <input type="checkbox" value="" checked> 拆分配送
+                    </label>
+                    <label>
+                        <input type="checkbox" value=""> 统一配送
+                    </label>
+                </div>
+
+                <div class="form-group required">
+                    <label class="col-md-3 control-label">配送时间:</label>
+                    <span class="glyphicon glyphicon-time" style="font-size: 20px">大约25分钟</span>
+                </div>
+
+                <div class="form-group required">
+                    <label class="col-md-6 col-md-offset-1 control-label">价格:<span style="font-size: 20px">$20.00</span></label>
+                </div>
+                <div class="form-group required">
+                    <label class="col-md-6 col-md-offset-1 control-label">总计:7.5KM<span>  </span>配送费:<span style="font-size: 20px">$5.00 </span></label>
+                </div>
+                <!--
+                <div class="form-group required">
+                    <label class="col-md-5 col-md-offset-2 control-label">12% TAX<span style="font-size: 12px">$2.4</span> </label>
+                </div>
+                <div class="form-group required">
+                    <label class="col-md-5 col-md-offset-2 control-label">小费(10%)<span style="font-size: 12px">$2.00</span> </label>
+                </div>
+                <div class="form-group required">
+                    <label class="col-md-5 col-md-offset-2 control-label">总价(10%)<span style="font-size: 12px; color:#DE3D3">$2.00</span> </label>
+                </div>
+                -->
+                <div class="row">
+                    <div class="col-md-5" style="margin-left: -60px;margin-top: 15px">
+                        <button class="btn btn-primary" type="submit" style="width: 156px;height: 88px;font-size: 32px;">结算</button>
                     </div>
-                </form>
-            </div>
-        </div>
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-md-1 col-md-offset-7">配送时间:</div>
-            <div class="col-md-3"><span class="glyphicon glyphicon-time" style="font-size: 30px">大约25分钟</span></div>
+                    <div class="col-md-6" style="margin-left: 0px">
+                        <div class="row">
+                            <label class="control-label">12% TAX: <span style="font-size: 20px">$2.4</span></label>
+                        </div>
+                        <div class="row">
+                            <label class="control-label">小费(10%):<span style="font-size: 20px">$2.00</span></label>
+                        </div>
+                        <div class="row">
+                            <label class="control-label">总价:<span style="font-size: 20px; color:#DE3D36">$29.40</span></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </body>

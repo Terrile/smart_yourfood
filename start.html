@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://www.usays.ca/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+    <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./start_files/sfhome.update.css">
+    <link rel="stylesheet" type="text/css" href="./css/simplegrid.css">
+    <link rel="stylesheet" type="text/css" href="./css/bottom.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <script src="./start_files/jquery-2.1.1.min.js" type="text/javascript"></script>
+   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkvY-Zv3LB0uIoS-Yt4MMYyi0gug1ykCg&libraries=places&language=en&callback=initMap" async="" defer=""></script>-->
+    <script src="./start_files/sfhome.js" type="text/javascript"></script>
+    <!--for debug-->
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4/jquery-ui.css">
+    <script src="js/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="js/ui-maker.js"></script>
+    <!--end debug-->
+  </head>
+  <body>
+  	<div class="header">
+  		<div class="language">English</div>
+  		<div class="dash">|</div>
+  		<div class="account">
+	  			    		<a href="http://www.usays.ca/index.php?route=sfaccount/login">登陆/注册</a>
+	          		
+  		</div>
+		<a href="http://www.usays.ca/index.php?route=sfaccount/login">
+  			<div class="account-icon"></div>
+		</a>
+  	</div>
+  	<div class="content">
+  		<div class="search-bar">
+  			<input id="searchType" type="hidden" value="food">
+  			<img id="mapSelect"> 
+  			<input id="pac-input" class="controls" type="text" placeholder="请输入送餐地址">
+  			<div id="dropdown"></div>
+  			<input id="serach-input" class="controls" type="text" placeholder="请输入餐馆、菜品关键字">
+  			<div id="search-button">查找美食</div>
+  			<div class="history-addresses hide">
+  				<div id="history-label">历史记录</div>
+  			</div>
+  		</div>
+        <div id="first-honey-point">
+            <div class="tip-content"><a href="http://www.usays.ca/index.php?route=common/list&type=restaurant">美食悠选</a></div>
+        </div>
+
+  		<div id="second-honey-point">
+            <div class="tip-content"><a href="http://www.usays.ca/index.php?route=common/list&type=restaurant">精品餐馆</a></div>
+  		</div>
+  	</div>
+    <div id="bottom_part">
+
+        <div id="bottom_center">
+
+            <div class="bottom_item">
+                <div class="bottom_out_circle">
+                    <div class="bottom_inner_circle">
+
+                    </div>
+                </div>
+                <div class="bottom_label hide">
+                    推荐美食
+                </div>
+                <div class="bottom_desc_area">
+                    <div class="bottom_food_name">
+                        香辣虾
+                    </div>
+                    <div class="bottom_rest_name">
+                        Dragon House 龙顺园
+                    </div>
+                </div>
+                <div class="bottom-cart">
+
+                </div>
+            </div>
+
+            <div class="bottom_item">
+                <div class="bottom_out_circle">
+                    <div class="bottom_inner_circle">
+
+                    </div>
+                </div>
+                <div class="bottom_label hide">
+                    推荐美食
+                </div>
+                <div class="bottom_desc_area">
+                    <div class="bottom_food_name">
+                        香辣虾
+                    </div>
+                    <div class="bottom_rest_name">
+                        Dragon House 龙顺园
+                    </div>
+                </div>
+                <div class="bottom-cart hide">
+
+                </div>
+            </div>
+            <div class="bottom_item">
+                <div class="bottom_out_circle">
+                    <div class="bottom_inner_circle">
+
+                    </div>
+                </div>
+                <div class="bottom_label hide">
+                    推荐美食
+                </div>
+                <div class="bottom_desc_area">
+                    <div class="bottom_food_name">
+                        香辣虾
+                    </div>
+                    <div class="bottom_rest_name">
+                        Dragon House 龙顺园
+                    </div>
+                </div>
+                <div class="bottom-cart hide">
+
+                </div>
+            </div>
+            <div class="bottom_item">
+                <div class="bottom_out_circle">
+                    <div class="bottom_inner_circle">
+
+                    </div>
+                </div>
+                <div class="bottom_label hide">
+                    推荐美食
+                </div>
+                <div class="bottom_desc_area">
+                    <div class="bottom_food_name">
+                        香辣虾
+                    </div>
+                    <div class="bottom_rest_name">
+                        Dragon House 龙顺园
+                    </div>
+                </div>
+                <div class="bottom-cart hide">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--
+  	<div class="special-foods">
+  		<input type="hidden" id="restId" value="0">
+  		<div class="col-1-1">
+            <div class="col-2-12">
+
+            </div>
+            <div class="col-8-12">
+  				<div class="food" restid="8" foodid="572">
+	  				<div class="food-background">
+	  					<div class="food-thumb" style="background-image: url(&#39;./catalog/view/theme/default/image/foodImages/龙顺园_香辣虾.jpg&#39;);">
+	  					</div>
+  					</div>
+  					<div class="food-hover-content hide">推荐美食</div>
+  					<div class="food-name">香辣虾</div>
+  					<div class="food-desc">Dragon House 龙顺园</div>
+  					<div class="buy-cart hide"></div>
+  				</div>
+                <div class="food" restid="8" foodid="591">
+	  				<div class="food-background">
+	  					<div class="food-thumb" style="background-image: url(&#39;./catalog/view/theme/default/image/foodImages/龙顺园_新疆大盘鸡.jpg&#39;); ">
+	  					</div>
+  					</div>
+  					<div class="food-hover-content hide">推荐美食</div>
+  					<div class="food-name">新疆大盘鸡</div>
+  					<div class="food-desc">Dragon House 龙顺园</div>
+  					<div class="buy-cart hide"></div>  					
+  				</div>
+                <div class="food" restid="8" foodid="630">
+	  				<div class="food-background">
+	  					<div class="food-thumb" style="background-image: url(&#39;./catalog/view/theme/default/image/foodImages/麻辣香锅_首页.jpg&#39;);">
+	  					</div>
+  					</div>
+  					<div class="food-hover-content hide">推荐美食</div>
+  					<div class="food-name">麻辣香锅</div>
+  					<div class="food-desc">Dragon House 龙顺园</div>
+  					<div class="buy-cart hide"></div>
+  				</div>
+                <div class="food" restid="8" foodid="636">
+	  				<div class="food-background">
+	  					<div class="food-thumb" style="background-image: url(&#39;./catalog/view/theme/default/image/foodImages/龙顺园_干锅牛蛙.jpg&#39;);">
+	  					</div>
+  					</div>
+  					<div class="food-hover-content hide">推荐美食</div>
+  					<div class="food-name">干锅牛蛙</div>
+  					<div class="food-desc">Dragon House 龙顺园</div>
+  					<div class="buy-cart hide"></div>  					
+  				</div>
+            </div>
+  		</div>
+  	</div>
+  	-->
+
+    <!--debug code-->
+    <!--
+    <div id="dialog" title="Adjust Position" style="width: 850px;height: 600px">
+        <div id="leftp" style="float: left; width: 80px;">
+            <div id="ele_id_panel">
+                <label for="ele_selector">Element:</label>
+                <select id="ele_selector">
+                    <option></option>
+                    <option>body</option>
+                    <option>.content</option>
+                    <option>.search-bar</option>
+                    <option>#search-button</option>
+                    <option>#first-honey-point</option>
+                    <option>.click-point-first</option>
+                    <option>#second-honey-point</option>
+                    <option>.click-point-second</option>
+                    <option>.tip-content</option>
+                    <option>.special-foods</option>
+                    <option>.foods-content</option>
+                    <option>.food</option>
+                    <option>.food-background</option>
+                    <option>.food-thumb</option>
+                    <option>.food-name</option>
+                    <option>.food-desc</option>
+                    <option>.food-hover</option>
+                    <option>#test_ele</option>
+                </select>
+            </div>
+            <div id="position_type">
+                <label for="pos_type">Pos Type:</label>
+                <select name="pos_type" id="pos_type">
+                    <option>absolute</option>
+                    <option>relative</option>
+                </select>
+            </div>
+            <div id="div_hide">
+                <label for="show_checkbox">Show</label>
+                <input id="show_checkbox" type="checkbox" checked>
+            </div>
+        </div>
+        <div id="rightp" style="float: right;width: 600px;">
+            <div id="x-pos">
+                <p>
+                    <label for="x_val">X:</label>
+                    <input type="text" id="x_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                </p>
+                <div id="x_slider"></div>
+            </div>
+            <div id="y-pos">
+                <p>
+                    <label for="y_val">Y:</label>
+                    <input type="text" id="y_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                </p>
+                <div id="y_slider"></div>
+            </div>
+
+            <div id="width">
+                <p>
+                    <label for="width_val">Width:</label>
+                    <input type="text" id="width_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                </p>
+                <div id="width_slider"></div>
+            </div>
+
+            <div id="height">
+                <p>
+                    <label for="height_val">Height:</label>
+                    <input type="text" id="height_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                </p>
+                <div id="height_slider"></div>
+            </div>
+        </div>
+    </div>
+    -->
+</body></html>

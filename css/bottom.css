@@ -1,0 +1,506 @@
+#bottom_part{
+    width: 100%;
+    height: 25.5%;
+    min-height: 25%;
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+}
+
+#bottom_center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    /*background-color: palevioletred;*/
+}
+
+@media (max-width: 1025px) {
+    #bottom_center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1119px) {
+    #bottom_center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 80%;
+        height: 100%;
+        min-height: 100%;
+        /*background-color: palevioletred;*/
+    }
+}
+.bottom_item{
+    width: 20%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
+    border: 0;
+    float: left;
+    /*background-color: #f94e4e;*/
+}
+
+.bottom_item_hover{
+    width: 20%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
+    border: 0;
+    float: left;
+    background-color: #f94e4e;
+    position: relative;
+}
+
+
+/*@media (min-height: 600px) and (max-width: 1350px) {*/
+    .bottom_out_circle_hover{
+        width: 120px;
+        height: 120px;
+        padding: 0;
+        padding-top: 6px;
+        border: 0;
+        border-radius: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -45px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_out_circle{
+        width: 120px;
+        height: 120px;
+        padding: 0;
+        padding-top: 6px;
+        border: 0;
+        border-radius: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_inner_circle{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+        width: 108px;
+        height: 108px;
+        background: url(../catalog/view/theme/default/image/foodImages/龙顺园_香辣虾.jpg) no-repeat top left;
+        background-size: 100% 100%;
+        border-radius: 54px;
+        -webkit-border-radius:54px;
+    }
+    .bottom_label{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3px;
+        margin-top: 5px;
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+        color: white;
+        font-weight: bolder;
+        background: rgba(83,31,33,.5);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .bottom_desc_area{
+        width: 120px;
+        height: 32px;
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom_food_name{
+        font-size: 12px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_food_name_hover{
+        margin-top: 3px;
+        font-size: 14px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_rest_name{
+        font-size: 8px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom_rest_name_hover{
+        font-size: 10px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom-cart{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+        background: url(../image/cartCorner.png) no-repeat;
+        background-size: 100% 100%;
+        cursor:pointer;
+    }
+
+  /*  }*/
+
+@media (max-height: 640px) {
+    .bottom_out_circle_hover{
+        width: 90px;
+        height: 90px;
+        padding: 0;
+        padding-top: 5px;
+        border: 0;
+        border-radius: 45px;
+        -webkit-border-radius:45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_out_circle{
+        width: 90px;
+        height: 90px;
+        padding: 0;
+        padding-top: 5px;
+        border: 0;
+        border-radius: 45px;
+        -webkit-border-radius:45px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_inner_circle{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+        width: 80px;
+        height: 80px;
+        background: url(../catalog/view/theme/default/image/foodImages/龙顺园_香辣虾.jpg) no-repeat top left;
+        background-size: 100% 100%;
+        border-radius: 40px;
+        -webkit-border-radius:40px;
+    }
+    .bottom_label{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3px;
+        margin-top: 5px;
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+        color: white;
+        font-weight: bolder;
+        background: rgba(83,31,33,.5);
+        border-radius: 8px;
+        text-align: center;
+        display: none;
+    }
+
+    .bottom_desc_area{
+        width: 120px;
+        height: 32px;
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom_food_name{
+        font-size: 12px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_food_name_hover{
+        margin-top: 3px;
+        font-size: 14px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_rest_name{
+        font-size: 8px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom_rest_name_hover{
+        font-size: 10px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom-cart{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+        background: url(../image/cartCorner.png) no-repeat;
+        background-size: 100% 100%;
+        cursor:pointer;
+    }
+}
+
+@media (min-width: 1100px) and (min-height: 800px) {
+    .bottom_out_circle_hover{
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        padding-top: 6px;
+        border: 0;
+        border-radius: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -60px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_out_circle{
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        padding-top: 8px;
+        border: 0;
+        border-radius: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_inner_circle{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+        width: 134px;
+        height: 134px;
+        background: url(../catalog/view/theme/default/image/foodImages/龙顺园_香辣虾.jpg) no-repeat top left;
+        background-size: 100% 100%;
+        border-radius: 67px;
+        -webkit-border-radius:67px;
+    }
+    .bottom_label{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3px;
+        margin-top: 5px;
+        width: 70px;
+        height: 20px;
+        font-size: 12px;
+        color: white;
+        font-weight: bolder;
+        background: rgba(83,31,33,.5);
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .bottom_desc_area{
+        width: 120px;
+        height: 32px;
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bottom_food_name{
+        font-size: 12px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_food_name_hover{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_rest_name{
+        font-size: 8px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom_rest_name_hover{
+        font-size: 10px;
+        margin-top: 5px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom-cart{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+        background: url(../image/cartCorner.png) no-repeat;
+        background-size: 100% 100%;
+        cursor:pointer;
+
+    }
+}
+
+@media (min-width: 1300px) and (min-height : 899px) {
+    .bottom_out_circle_hover{
+        width: 170px;
+        height: 170px;
+        padding: 0;
+        padding-top: 10px;
+        border: 0;
+        border-radius: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -60px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_out_circle{
+        width: 170px;
+        height: 170px;
+        padding: 0;
+        padding-top: 10px;
+        border: 0;
+        border-radius: 85px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 0;
+        background:  rgba(83,31,33,.6)
+    }
+
+    .bottom_inner_circle{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        border: 0;
+        width: 150px;
+        height: 150px;
+        background: url(../catalog/view/theme/default/image/foodImages/龙顺园_香辣虾.jpg) no-repeat top left;
+        background-size: 100% 100%;
+        border-radius: 75px;
+        -webkit-border-radius:85px;
+    }
+    .bottom_label{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        margin-top: 5px;
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        color: white;
+        font-weight: bolder;
+        background: rgba(83,31,33,.5);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .bottom_desc_area{
+        width: 190px;
+        height: 50px;
+        border: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /*background-color: blanchedalmond;*/
+    }
+    .bottom_food_name{
+        border: 0;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_food_name_hover{
+        margin-top: 3px;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        text-align:center;
+        cursor:pointer;
+    }
+    .bottom_rest_name{
+        font-size: 12px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom_rest_name_hover{
+        font-size: 12px;
+        text-align:center;
+        color: white;
+        cursor:pointer;
+    }
+
+    .bottom-cart{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 36px;
+        height: 36px;
+        background: url(../image/cartCorner.png) no-repeat;
+        background-size: 100% 100%;
+        cursor:pointer;
+    }
+}
+
+
+

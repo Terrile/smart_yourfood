@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的餐车</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="application/javascript">
+        $(document).ready(function() {
+            $('input.paymethod').on('change', function () {
+                $('input.paymethod').not(this).prop('checked', false);
+            });
+        });
+    </script>
+</head>
+<body class="container">
+    <table class="table" style="margin-top: 50px">
+        <caption class="text-left">订单编号: 201509110100</caption>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>菜品</th>
+            <th>单价</th>
+            <th>数量</th>
+            <th>小计</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>鱼香肉丝 (北疆饭店)</td>
+            <td>10.00$</td>
+            <td>2</td>
+            <td>20.00$</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>鱼香肉丝 (北疆饭店)</td>
+            <td>10.00$</td>
+            <td>2</td>
+            <td>20.00$</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>鱼香肉丝 (北疆饭店)</td>
+            <td>10.00$</td>
+            <td>2</td>
+            <td>20.00$</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-2">
+            <span style="font-weight: bold">总金额: $105</span>
+        </div>
+        <div class="col-md-2">
+            菜品总价: $80
+        </div>
+        <div class="col-md-2">
+            配送费: $5
+        </div>
+        <div class="col-md-2">
+            税(%12): $5
+        </div>
+        <div class="col-md-2">
+            小费 (%10): $8
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-4">
+            <label>送餐联系人</label><input type="text" style="margin-left: 20px" value="邹敏">
+        </div>
+        <div class="col-md-3">
+            <label>送餐电话</label><input type="text" style="margin-left: 20px" value="15001326758">
+        </div>
+        <div class="col-md-4">
+            <label>送餐地址</label><input type="text" readonly="readonly" disabled="disabled" style="margin-left: 20px" value="中关村海淀黄庄"> <span class="glyphicon glyphicon-map-marker"></span>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-2">
+            <span style="font-weight: bold;">付款方式</span>
+        </div>
+        <div class="col-md-2">
+            <label style="bottom: 0px">Paypal</label><input type="checkbox" checked class="paymethod">
+        </div>
+        <div class="col-md-2">
+            <label>MasterCard</label><input type="checkbox" class="paymethod">
+        </div>
+        <div class="col-md-2">
+            <label>Visa</label><input type="checkbox" class="paymethod">
+        </div>
+        <div class="col-md-2">
+            <label>Cash</label><input type="checkbox" class="paymethod">
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px">
+        <a href="/index.php?route=payment/pp_express/checkout" style="float: right"> <div class="btn btn-primary" type="submit">打印</div></a>
+        <a href="/index.php?route=payment/pp_express/checkout" style="float: right; margin-right: 10px"> <div class="btn btn-primary" type="submit">付款</div></a>
+    </div>
+</body>
+</html>

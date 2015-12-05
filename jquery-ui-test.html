@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Dialog - Default functionality</title>
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4/jquery-ui.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <script src="js/ui-maker.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4/style.css">
+</head>
+<body>
+
+<div id="test_ele">
+    Hello World!
+</div>
+
+<div id="dialog" title="Adjust Position" style="width: 800px;height: 600px">
+    <div id="leftp" style="float: left; width: 100px;">
+        <div id="ele_id_panel">
+            <label for="ele_selector">Element:</label>
+            <select id="ele_selector">
+                <option>.search-bar</option>
+                <option>#search-button</option>
+                <option>.special-foods</option>
+                <option>.foods-content</option>
+                <option>.food</option>
+                <option>.food-name</option>
+                <option>.food-desc</option>
+                <option>#test_ele</option>
+            </select>
+        </div>
+        <div id="position_type">
+            <label for="pos_type">Pos Type:</label>
+            <select name="pos_type" id="pos_type">
+                <option>absolute</option>
+                <option>relative</option>
+            </select>
+        </div>
+        <div id="div_hide">
+            <label for="show_checkbox">Show</label>
+            <input id="show_checkbox" type="checkbox" checked>
+        </div>
+    </div>
+    <div id="rightp" style="float: right;width: 600px;">
+        <div id="x-pos">
+            <p>
+                <label for="x_val">X:</label>
+                <input type="text" id="x_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="x_slider"></div>
+        </div>
+        <div id="y-pos">
+            <p>
+                <label for="y_val">Y:</label>
+                <input type="text" id="y_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="y_slider"></div>
+        </div>
+
+        <div id="width">
+            <p>
+                <label for="width_val">Width:</label>
+                <input type="text" id="width_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="width_slider"></div>
+        </div>
+
+        <div id="height">
+            <p>
+                <label for="height_val">Height:</label>
+                <input type="text" id="height_val" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="height_slider"></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

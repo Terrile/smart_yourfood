@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="sf_cart.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+</head>
+<!--<body class="body" style="background: url(./img/cart_bkp.png) no-repeat top left;">-->
+<body class="body">
+<div class="header">
+
+    <div class="header_logo">
+        悠选
+    </div>
+    <div class="header_menuhome header_selected">
+        <div class="header_txt">
+            首页
+        </div>
+    </div>
+    <div class="header_menuorder">
+        <div class="header_txt">
+            我的订单
+        </div>
+    </div>
+    <div class="header_rightinfo">
+        <div class="header_lang">
+            <div class="header_txt">
+                English
+            </div>
+        </div>
+        <div class="header_login">
+            <div class="header_login_txt">
+                登录/注册
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="opacity: 1.0">
+    <div class="cart_panel">
+        <div class="cart_header">
+            <div class="confirmlabel">订单确认</div>
+            <div class="gobackcart"><a href="/" style="text-decoration: none;color: #A0A0A0">返回购物车修改</a></div>
+        </div>
+        <hr width="96%" color="#DFDFDF" style="margin-left: auto;margin-right: auto"/>
+        <table id="cart">
+            <caption>订单详情</caption>
+            <tbody>
+                <tr class="carttableheader">
+                    <th class="col1">
+                        <div class="header_foodname" style="margin-left: 40px">
+                            菜品
+                        </div>
+                    </th>
+                    <th class="col2">单价</th>
+                    <th class="col3">数量</th>
+                    <th class="col4">小计</th>
+                </tr>
+                <tr>
+                    <td class="col1">
+                        <div class="orderthumb">
+                            <div class="foodpic">
+                                <img width="65px" height="65px" src="img/shop.1.jpg"/>
+                            </div>
+                            <div class="orderdesc">
+                                <div class="foodname">
+                                    宫保鸡丁 (粥面故事)
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="col2">10.00</td>
+                    <td class="col3">
+                        <div style="margin-left:50px;margin-top:10px">
+                            <div class="foodnum">2</div>
+                        </div>
+                    </td>
+                    <td class="col4">20</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="summary">
+            <span class="summary_item">菜品总价: $198.00</span>
+            <span class="summary_item">配送费: $10.00</span>
+            <span class="summary_item">税:$15</span>
+            <span class="summary_item" style="margin-left:190px">小费(10%): $10.00</span>
+            <span class="summary_item" style="float:right;margin-right:120px">总金额: <span id="total_cost">$200</span></span>
+        </div>
+    </div>
+    <div id="deliverlabel">
+    配送信息
+    </div>
+    <div class="addressarea">
+        <div class="addressbox">
+            <div style="margin-bottom: 20px;margin-top: 20px">
+                <span>guoguo</span>
+            </div>
+            <br/>
+            <line>保利罗兰香谷</line>
+            <br/>
+            <br/>
+            <span>13911046718</span>
+        </div>
+    </div>
+    <div id="payment">
+        <div id="paymentlabel">
+        付款方式
+        </div>
+        <table id="paymenttable">
+            <td style="vertical-align: middle">
+                <div class="paymentthumb">
+                    <input type="checkbox" class="payment_checkbox"/>
+                    <div class="paymentname">
+                        Master Card
+                    </div>
+                    <div class="paymenticon">
+                        <img src="img/mastercard.png"/>
+                    </div>
+                </div>
+            </td>
+            <td style="vertical-align: middle">
+                <div class="paymentthumb">
+                    <input type="checkbox" class="payment_checkbox"/>
+                    <div class="paymentname">
+                        Visa
+                    </div>
+                    <div class="paymenticon">
+                        <img src="img/visa.png"/>
+                    </div>
+                </div>
+            </td>
+             <td style="vertical-align: middle">
+                <div class="paymentthumb">
+                    <input type="checkbox" class="payment_checkbox"/>
+                    <div class="paymentname">
+                        Visa
+                    </div>
+                    <div class="paymenticon">
+                        <img src="img/visa.png"/>
+                    </div>
+                </div>
+            </td>
+        </table>
+    </div>
+    <div style="margin-top: 20px;margin-left: 60px">
+        预计到达时间13:40
+    </div>
+    <div class="btn" style="float: right;margin-right: 20px;background-color: #f1f1f1;color: #555555">打印订单</div>
+    <a href="account.html">
+        <div class="btn" style="float: right;margin-right: 20px">确认付款</div>
+    </a>
+</div>
+
+<div class="footer">
+    This is footer
+</div>
+</body>
+</html>

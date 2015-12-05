@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <title>账户信息</title>
+    <link type="text/css" rel="stylesheet" href="sfaccount.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/account_ui.js"></script>
+</head>
+<body style="background: url(./8.png) no-repeat top left">
+<div class="header">
+    <div class="header_logo">
+        悠选
+    </div>
+    <div class="header_menuhome header_selected">
+        <div class="header_txt">
+            首页
+        </div>
+    </div>
+    <div class="header_menuorder">
+        <div class="header_txt">
+            我的订单
+        </div>
+    </div>
+    <div class="header_rightinfo">
+        <div class="header_lang">
+            <div class="header_txt">
+                English
+            </div>
+        </div>
+        <div class="header_login">
+            <div class="header_login_txt">
+                登录/注册
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mainpanel">
+    <div class="leftpanel">
+        <div class="left_title">
+            我的账户
+        </div>
+        <div class="left_item" id="orderhistory">
+            历史订单
+        </div>
+        <div class="left_item"  id="updateaccount">
+            账户信息修改
+        </div>
+        <div class="left_item"  id="updatepassword">
+            密码修改
+        </div>
+        <div class="left_item" id="updateaddress">
+            地址管理
+        </div>
+        <div class="left_item" id="newsletter">
+            NewsLetter
+        </div>
+        <div class="left_item" id="logout">
+            退出登录
+        </div>
+    </div>
+    <div class="rightpanel" id="updateaccount_" style="">
+        <div class="right_header">
+            <div class="bt_update">
+            基本信息
+            </div>
+        </div>
+        <table class="right_basicinfo">
+            <tr>
+                <th class="iconarea">
+                    <div id="icon">
+                        <img src="img/headpic.png">
+                    </div>
+                    <div id="showname">
+                        <h3>下午好，guoguo</h3>
+                        <div id="bt_update">
+                            修改头像
+                        </div>
+                    </div>
+                </th>
+                <th class="moneyarea">
+                    <div class="moneylabel">
+                        <span style="font-size:16px">$</span>0.00
+                    </div>
+                    <div>
+                        <h3>账户余额</h3>
+                    </div>
+                    <div class="bt_update">
+                        充值
+                    </div>
+                </th>
+                <th class="couponarea">
+                    <div class="moneylabel">
+                        0<span style="font-size:16px">个</span>
+                    </div>
+                    <div>
+                        <h3>我的优惠券</h3>
+                    </div>
+                    <div class="bt_update">
+                        充值送优惠
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <table class="right_infodetail">
+            <tr class="infoitem">
+                <td style="font-size: 18px;font-weight: bolder">用户名</td><td>guoguo</td><td class="update">修改</td>
+            </tr>
+            <tr class="infoitem">
+                <td style="font-size: 18px;font-weight: bolder">手机号码</td><td>13911046718</td><td class="update">修改</td>
+            </tr>
+            <tr class="infoitem">
+                <td style="font-size: 18px;font-weight: bolder">电子邮箱</td><td>minzou@live.com</td><td class="update">修改</td>
+            </tr>
+        </table>
+    </div>
+    <!--edit address-->
+    <div class="rightpanel" id="updateaddress_">
+        <div class="addressbox">
+            <div style="margin-bottom: 20px;margin-top: 20px">
+                <span>guoguo</span>
+                <span style="float: right;margin-right: 20px;color: red;">删除</span>
+                <span style="float: right;margin-right: 20px;color: red;">修改</span>
+            </div>
+            <br/>
+            <line>保利罗兰香谷</line>
+            <br/>
+            <br/>
+            <line>13911046718</line>
+        </div>
+        <div class="addressbox">
+            <div style="margin-bottom: 20px;margin-top: 20px">
+                <span>guoguo</span>
+                <span style="float: right;margin-right: 20px;color: red;">删除</span>
+                <span style="float: right;margin-right: 20px;color: red;">修改</span>
+            </div>
+            <br/>
+            <line>保利罗兰香谷</line>
+            <br/>
+            <br/>
+            <line>13911046718</line>
+        </div>
+        <div class="addressbox">
+            <div style="margin-bottom: 20px;margin-top: 20px">
+                <span>guoguo</span>
+                <span style="float: right;margin-right: 20px;color: red;">删除</span>
+                <span style="float: right;margin-right: 20px;color: red;">修改</span>
+            </div>
+            <br/>
+            <line>保利罗兰香谷</line>
+            <br/>
+            <br/>
+            <line>13911046718</line>
+        </div>
+    </div>
+    <!--order history-->
+    <div class="rightpanel" id="orderhistory_">
+        <div class="right_header">
+            <div class="btn" style="float:left">
+                全部
+            </div>
+        </div>
+        <table class="ordertable">
+            <tr class="orderheader">
+                <th class="col1">订单详情</th>
+                <th class="col2">收货人</th>
+                <th class="col3">总计金额</th>
+                <th class="col4">状态</th>
+                <th class="col5">操作</th>
+            </tr>
+            <tr>
+                <td class="col1">
+                    <div class="orderthumb">
+                        <div class="foodpic">
+                            <img width="85px" height="85px" src="img/shop.1.jpg"/>
+                        </div>
+                        <div class="orderdesc">
+                            <div class="foodname">
+                                宫保鸡丁
+                            </div>
+                            <div class="ordertime">
+                                2015-09-18:18-27-39
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td class="col2">guoguo</td>
+                <td class="col3">$98.50</td>
+                <td class="col4">送餐中</td>
+                <td class="col5">
+                    <div><strong>评价</strong></div>
+                    <div class="btn">
+                        再次购买
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col1">
+                    <div class="orderthumb">
+                        <div class="foodpic">
+                            <img width="85px" height="85px" src="img/shop.1.jpg"/>
+                        </div>
+                        <div class="orderdesc">
+                            <div class="foodname">
+                                宫保鸡丁
+                            </div>
+                            <div class="ordertime">
+                                2015-09-18:18-27-39
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td class="col2">guoguo</td>
+                <td class="col3">$98.50</td>
+                <td class="col4">送餐中</td>
+                <td class="col5">
+                    <div><strong>评价</strong></div>
+                    <div class="btn">
+                        再次购买
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="rightpanel" id="newsletter_">
+        <div class="right_header">
+        </div>
+        <div class="right_infodetail">
+            Welcome! 欢迎来到悠选美食服务区,我们将用待家人的温暖为您递上一份舒适的美食。
+        </div>
+
+    </div>
+    <div class="rightpanel" id="logout_">
+        <div class="right_header">
+            <div class="btn" style="float: left">
+                退出
+            </div>
+        </div>
+    </div>
+</div>
+<div id="currentpage" pageid="#newsletter_"></div>
+</body>
+</html>

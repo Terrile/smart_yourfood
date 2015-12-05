@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script src="./js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+    <link href="./js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="./js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="./js/google-code-prettify/prettify.css" rel="stylesheet">
+</head>
+<body>
+    <div id="welcome" class="welcome owl-carousel owl-theme" style="width: 540px;height: 330px">
+        <div class="item">
+            <line>Welcome to</line>
+            <p style="float: right;margin-right: 100px; margin-bottom: 30px"><span>U-Says</span></p>
+            <p style="font-size: 24px;margin-top: 0px;clear: both">Hungry? Empty fridge or no time to cook? You've come to the right place!</p>
+        </div>
+        <div class="item">
+            <line>Welcome to</line>
+            <p style="float: right;margin-right: 100px; margin-bottom: 30px"><span>U-Says</span></p>
+            <p style="font-size: 24px;margin-top: 0px;clear: both">Our website helps foodies spend less time wondering what to eat and more time enjoying food.</p>
+        </div>
+        <div class="item">
+            <line>Welcome to</line>
+            <p style="float: right;margin-right: 100px; margin-bottom: 30px"><span>U-Says</span></p>
+            <p style="font-size: 24px;margin-top: 0px;clear: both">We're here to help you make choices that satisfy your palette</p>
+        </div>
+    </div>
+    <div class="regarea">
+        <!--<div style="background-color: #FA7171;margin-top: 0px;width: 100%;height: 8px;border-top-left-radius: 5px;border-top-right-radius: 5px;"></div>-->
+        <div style="padding-top: 36px;padding-bottom: 32px; font-size: 32px;font-weight: bolder; margin-left: 175px">
+            注册
+        </div>
+        <form method="post" id="regform" onsubmit="return regsubmit();">
+        <!--<form method="post" id="regform" onsubmit="return regsubmit();">-->
+            <div class="regitem">
+                <div class="regtips">
+                    <div class="reg_icon" style="background-image: url(./img/icons/account_icon.png);">
+                    </div>
+                </div>
+                <input class="reg_input" name="accountname" id="accountname" placeholder="您的姓名"/>
+            </div>
+            <div class="regitem">
+                <div class="regtips">
+                    <div class="reg_icon" style="background-image: url(./img/icons/mobile_icon.png);">
+                    </div>
+                </div>
+                <input id="phonenumber"  name="phonenumber" class="reg_input"  placeholder="手机号码"/>
+            </div>
+            <div class="regitem">
+                <div class="regtips">
+                    <div class="reg_icon" style="background-image: url(./img/icons/lock.png);">
+                    </div>
+                </div>
+                <input id="pwd_1st" class="reg_input"  name="pwd_1st" type="password" placeholder="输入密码"/>
+            </div>
+            <div class="regitem">
+                <div class="regtips">
+                    <div class="reg_icon" style="background-image: url(./img/icons/lock.png);">
+                    </div>
+                </div>
+                <input id="pwd_2nd" name="pwd_2nd" class="reg_input" type="password" placeholder="确认密码"/>
+            </div>
+            <input type="submit" class="reg_btn"><img style="z-index: 10" src="img/icons/regbtn.png" alt="同意并注册"></input>
+            <!--
+            <div class="reg_btn" type="submit">
+                <a href="#" id="reg_btn" onclick="document.getElementById('regform').submit();"><img src="img/icons/regbtn.png" alt="同意并注册"></a>
+            </div>
+            -->
+        </form>
+        <div class="regtxt">
+            <span style="color: #f94e4e;font-weight: bold">《使用条款和协议》</span>
+        </div>
+        <div class="regtxt">
+            <span style="font-weight: bold">已经注册过？ 请点击 </span><span style="color: #f94e4e;font-weight: bold">直接登录</span>
+        </div>
+        <div class="regtxt">
+            <span style="font-weight: bold">可使用以下账号登陆:</span>
+        </div>
+        <div class="regtxt">
+            <img src="img/icons/sociallogin.png">
+        </div>
+
+    </div>
+</body>
+</html>

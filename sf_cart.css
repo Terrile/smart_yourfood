@@ -1,0 +1,355 @@
+.body{
+    margin: 0;
+    background-color: #f1f1f1;
+    color: #555555;
+}
+
+.header{
+    width: 1600px;
+    height: 55px;
+    background-color: #f65053;
+    color: white;
+}
+
+.header_logo{
+    margin-left: 207px;
+    padding-top: 15px;
+    width: 120px;
+    height: 55px;
+    font-size: 23px;
+    font-weight: bold;
+    float: left;
+}
+.header_menuhome{
+    width: 80px;
+    height: 55px;
+    margin-left: 50px;
+    color: white;
+    float: left;
+    /*padding-top: 20px;*/
+}
+.header_menuorder{
+    width: 120px;
+    height: 55px;
+    margin-left: 50px;
+    color: white;
+    float: left;
+    /*padding-top: 20px;*/
+}
+.header_txt{
+    padding-top: 20px;
+    padding-left: 30%;
+}
+
+.header_selected{
+    background-color: #d33b39;
+}
+
+.header_rightinfo{
+    margin-right: 390px;
+    width: 250px;
+    float: right;
+}
+
+.header_lang{
+    width: 90px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.header_login{
+    float:right
+}
+.header_login_txt{
+    padding-top: 20px;
+}
+
+.container{
+    width: 1230px;
+    min-height: 1400px;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 44px;
+    background-color: #FFFFFF;
+}
+
+.cart_panel{
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #FFFFFF;
+}
+.cart_header{
+    margin-left: 26px;
+    height: 57px;
+}
+#cart{
+    margin-top:20px;
+    margin-left:40px;
+    width:1100px;
+}
+#cart > caption{
+    font-size:18px;
+    float:left;
+    margin-bottom:40px;
+    font-weight:bolder;
+}
+#cart > th{
+    background-color:#F1F1F1;
+}
+.orderthumb{
+    margin-left: 10px;
+    margin-top:10px;
+}
+.foodpic{
+    margin-left:10px;
+    float:left;
+}
+.orderdesc{
+    float:left;
+}
+.foodname{
+    margin-top:20px;
+    margin-left:10px;
+    text-align:left;
+    font-weight:bolder;
+}
+
+.foodnum{
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    color: #f65053;
+}
+
+.ordertime{
+    text-align:left;
+    margin-left:10px;
+    margin-top:10px;
+    font-weight:bold;
+}
+input[type="checkbox"]{
+    /*display: none;*/
+    width:15px;
+    height:15px;
+}
+.checkbox{
+    padding-top:20px;
+    float:left;   
+}
+.carttableheader{
+    height:35px;
+    background-color:#FAFAFA;
+}
+
+.col1{
+    width:470px;
+    text-align:left;
+}
+.col2{
+    text-align:center;
+    width:130px;
+}
+.col3{
+    text-align:center;
+    width:150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.col4{
+    text-align:center;
+    width:130px;
+}
+.col5{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header_foodname{
+
+}
+
+.btn_small{
+    width:25px;
+    height:15px;
+    color:white;
+    background-color: #f65053;
+    font-size:14px;
+    font-weight:bolder;
+    border-radius:3px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btn{
+    padding-top:5px;
+    width:80px;
+    height:25px;
+    color:white;
+    background-color: #f65053;
+    font-size:14px;
+    font-weight:bolder;
+    border-radius:3px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+}
+
+#summary{    
+    margin-top:20px;
+    margin-left: 40px;
+    padding-top:20px;
+    background-color: #fafafa;
+    font-weight:bolder;
+    height:35px;
+    width: 1100px;
+    border-bottom-style:solid;
+    border-bottom-color:red;
+    border-bottom-width:1px;
+    border-top-style:solid;
+    border-top-color:red;
+    border-top-width:1px;
+}
+.summary_item{
+    margin-left:10px;
+    margin-right:25px;
+}
+#total_cost{
+    color:#f65053;
+    font-size:20px;
+    float:right;
+}
+#tips{
+    
+}
+.addressarea{
+    margin-left:100px;    
+}
+
+.addressbox{
+    margin-top:30px;
+    margin-left:5px;
+    border-style: solid;
+    border-color: #D0D0D0;
+    border-width: 1px;
+    font-weight:bolder;
+    width: 270px;
+    height: 150px;
+    padding-left:10px;
+    float:left;
+}
+.addressarea:first-child{
+    margin-top:30px;
+    margin-left:5px;
+    border-style: solid;
+    border-color: #f65053;
+    border-width: 1px;
+    font-weight:bolder;
+    width: 270px;
+    height: 150px;
+    padding-left:10px;
+    float:left;
+}
+.addressbox .mark{
+    display: none;
+}
+
+.addressbox:hover{
+    margin-top:30px;
+    margin-left:5px;
+    border-style: solid;
+    border-color: #f65053;
+    border-width: 1px;
+    font-weight:bolder;
+    width: 270px;
+    height: 150px;
+    padding-left:10px;
+    float:left;
+}
+.addressbox:hover .mark{
+    display: block;
+}
+.addressbox_selected{
+    margin-top:30px;
+    margin-left:5px;
+    border-style: solid;
+    border-color: #f65053;
+    border-width: 1px;
+    font-weight:bolder;
+    width: 270px;
+    height: 150px;
+    padding-left:10px;
+    float:left;
+}
+.addressbox_selected .mark{
+    display: block;
+}
+
+#deliverlabel{
+    margin-left:120px;
+    margin-top:40px;
+    font-weight:bolder;
+}
+
+#payment{    
+clear:both;
+margin-left:60px;
+margin-top:245px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+padding-bottom:40px;
+border-bottom-color:#F1F1F1;
+}
+
+#paymentlabel{
+    margin-left:60px;
+    margin-top:60px;
+    font-weight:bolder;
+}
+
+#paymenttable{
+    margin-top:10px;
+    margin-left:100px;
+    width: 500px;
+}
+.paymentthumb{
+    float:left;
+
+}
+.payment_checkbox{
+    margin-top:20px;
+    float:left;
+}
+
+.paymentname{
+    padding-top:15px;
+    margin-left:5px;
+    float:left;
+    font-weight:bold;
+}
+.paymenticon{
+    float:left;
+    margin-left:10px;
+}
+
+.gobackcart{
+    font-size: 18px;
+    float: right;
+    font-weight: bold;
+    margin-top: 50px;
+    /*color: #A5A5A5;*/
+}
+
+.confirmlabel{
+    font-size: 32px;
+    float: left;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="review.css">
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <title></title>
+</head>
+<body>
+<div class="review-dialog-frame">
+    <input id="rest-id" type="hidden" value="1578">
+    <div class="review-dialog-wrap">
+        <div class="review-header">
+            <div class="review-title">修改用户名</div>
+            <div class="review-close"></div>
+        </div>
+
+        <div class="updatearea" id="updateusername">
+            <form method="post" id="regform">
+                <div class="regitem">
+                    <div class="regtips">
+                        <div class="reg_icon" style="background-image: url(./img/icons/account_icon.png);">
+                        </div>
+                    </div>
+                    <input class="reg_input" name="updateusername" placeholder="输入新的用户名"/>
+                </div>
+                <div class="regitem">
+                    <div class="regtips">
+                        <div class="reg_icon" style="background-image: url(./img/icons/account_icon.png);">
+                        </div>
+                    </div>
+                    <input class="reg_input" name="updateusername_confirm" placeholder="再次输入新的用户名"/>
+                </div>
+                <div class="reg_btn" id="btn_confirmusername" style="vertical-align:middle;text-align: center;color: white;font-size: 22px;font-weight: bolder;line-height: 50px">
+                    <span>确认</span>
+                </div>
+            </form>
+        </div>
+        <div id="send-review">发表评论</div>
+    </div>
+</div>
+</body>
+</html>

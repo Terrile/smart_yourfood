@@ -1,0 +1,23 @@
+.h_language{
+    margin-left: 66%;
+    float: left;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .h_language{
+        margin-left: 60%;
+        float: left;
+        cursor: pointer;
+    }
+}
+
+.h_search-bar {
+    width: 41.6%;/*5 of 12*/
+    border: solid 1px #f65053;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: #f65053;
+}
